@@ -17,9 +17,13 @@ const Sociallist = () => {
       icon: <AiFillAccountBook />,
       link: "https://react-icons.github.io/react-icons/",
     },
+    {
+      icon: <AiFillAccountBook />,
+      link: "https://react-icons.github.io/react-icons/",
+    },
   ];
   return (
-    <div className="flex row-auto ">
+    <div className="flex justify-between row-auto ">
       {links.map((obj) => (
         <Social icon={obj.icon} link={obj.link} />
       ))}

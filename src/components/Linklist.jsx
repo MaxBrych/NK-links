@@ -24,7 +24,7 @@ const Linklist = () => {
     },
   ];
   return (
-    <div>
+    <div className="space-y-4">
       {data.map((obj) => (
         <Link title={obj.title} alt={obj.alt} img={obj.img} link={obj.link} />
       ))}
