@@ -6,8 +6,8 @@ import { Header } from "./components/Header";
 
 function App() {
   return (
-    <div className="items-center flex w-screen justify-center h-screen columns-1 bg-[#121212]">
-      <div className="max-w-sm space-y-8">
+    <div className=" items-center flex w-screen justify-center h-screen columns-1 bg-[#006288] sm:p-4">
+      <div className="w-full p-4 space-y-8 sm:max-w-sm">
         <Header />
         <Sociallist />
         <Linklist />
