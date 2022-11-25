@@ -8,19 +8,19 @@ import { Social } from "./Social";
 const Sociallist = () => {
   const links = [
     {
-      icon: <BsFacebook color="#006288" />,
+      icon: <BsFacebook color="#006288" size={"1.5rem"} />,
       link: "https://react-icons.github.io/react-icons/",
     },
     {
-      icon: <AiFillInstagram color="#006288" />,
+      icon: <AiFillInstagram color="#006288" size={"1.5rem"} />,
       link: "https://react-icons.github.io/react-icons/",
     },
     {
-      icon: <AiOutlineTwitter color="#006288" />,
+      icon: <AiOutlineTwitter color="#006288" size={"1.5rem"} />,
       link: "https://react-icons.github.io/react-icons/",
     },
     {
-      icon: <HiGlobeAlt color="#006288" />,
+      icon: <HiGlobeAlt color="#006288" size={"1.5rem"} />,
       link: "https://react-icons.github.io/react-icons/",
     },
   ];
