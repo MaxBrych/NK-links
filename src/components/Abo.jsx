@@ -13,12 +13,11 @@ export const Abo = () => {
           <p className="text-xs">Aboniere jetzt online!</p>
         </div>
       </div>
-      <button
-        className="pt-2 pb-2 pl-3 pr-3 ml-3 text-sm text-white bg-black rounded-full"
-        href="https://www.nordkurier.de/abo"
-      >
-        Abonieren
-      </button>
+      <a href="https://www.nordkurier.de/abo" target="_blank" rel="noreferrer">
+        <button className="pt-2 pb-2 pl-3 pr-3 ml-3 text-sm text-white bg-black rounded-full">
+          Abonieren
+        </button>
+      </a>
     </div>
   );
 };
