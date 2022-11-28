@@ -9,7 +9,7 @@ const Linklist = () => {
   const data = [
     {
       title: "Zeitung",
-      img: <HiNewspaper color="white" size={"2rem"} />,
+      img: <HiNewspaper color="white" size={"1.5rem"} />,
       desc: "Zeitung",
       link: "https://www.nordkurier.de/",
       shareURL:
@@ -17,13 +17,13 @@ const Linklist = () => {
     },
     {
       title: "Logistik",
-      img: <TbTruckDelivery color="white" size={"2rem"} />,
+      img: <TbTruckDelivery color="white" size={"1.5rem"} />,
       desc: "Zeitung",
       link: "https://www.nordkurier-briefdienst.de/unternehmen/ueber-uns.html",
     },
     {
       title: "Business",
-      img: <MdBusinessCenter color="white" size={"2rem"} />,
+      img: <MdBusinessCenter color="white" size={"1.5rem"} />,
       desc: "Zeitung",
       link: "https://www.nordkurier-mediengruppe.de/",
     },
