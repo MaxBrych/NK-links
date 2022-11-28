@@ -9,19 +9,19 @@ const Sociallist = () => {
   const links = [
     {
       icon: <BsFacebook color="#006288" size={"1.5rem"} />,
-      link: "https://react-icons.github.io/react-icons/",
+      link: "https://www.facebook.com/Nordkurier/",
     },
     {
       icon: <AiFillInstagram color="#006288" size={"1.5rem"} />,
-      link: "https://react-icons.github.io/react-icons/",
+      link: "https://www.instagram.com/nordkurier/",
     },
     {
       icon: <AiOutlineTwitter color="#006288" size={"1.5rem"} />,
-      link: "https://react-icons.github.io/react-icons/",
+      link: "https://twitter.com/nordkurier",
     },
     {
       icon: <HiGlobeAlt color="#006288" size={"1.5rem"} />,
-      link: "https://react-icons.github.io/react-icons/",
+      link: "https://www.nordkurier.de/",
     },
   ];
   return (
